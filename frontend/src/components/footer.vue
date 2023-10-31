@@ -2,26 +2,25 @@
 	<footer>
 		<div id="content">
 			<div class="icons">
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test">
+				<div title="masło" class="test clickable"></div>
+				<div title="masło" class="test clickable"></div>
+				<div title="masło" class="test clickable"></div>
+				<div title="masło" class="test clickable"></div>
+				<div title="masło" class="test clickable">
 					<img src="../assets/keyboards/Klawiatura.svg" alt="" />
 				</div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"><img src="../assets/vue.svg" alt="" /></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
-				<div class="test"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable">
+					<img src="../assets/vue.svg" alt="" />
+				</div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
+				<div title="parmezan" class="test clickable"></div>
 			</div>
 		</div>
 	</footer>

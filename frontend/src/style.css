@@ -66,4 +66,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.clickable {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

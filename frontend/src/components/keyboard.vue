@@ -7,18 +7,19 @@
 				src="../assets/keyboards/Klawiatura.svg"
 				alt=""
 				@click="handleClick()"
+				class="clickable"
 			/>
 			<p>mak</p>
 		</section>
 
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
+		<div class="test">Rebirth rank</div>
+		<div class="test">Level progres</div>
+		<div class="test">Controls</div>
+		<div class="test">Activ bonus</div>
+		<div class="test">Just more info bout upgrades</div>
+		<div class="test">Redactor avatar</div>
+		<div class="test">Redactor info</div>
+		<div class="test">Just more info bout upgrades</div>
 	</section>
 </template>
 
@@ -103,7 +104,6 @@ onBeforeUnmount(() => {
 }
 
 #using_keyboard {
-	cursor: pointer;
 	height: 20svh;
 	will-change: filter;
 	transition: filter ease 1s, rotate ease 250ms;
@@ -115,5 +115,11 @@ onBeforeUnmount(() => {
 
 #combo_counter {
 	font-size: 3rem;
+}
+
+.test {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 </style>

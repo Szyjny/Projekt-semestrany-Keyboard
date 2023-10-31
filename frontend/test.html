@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cookie Clicker</title>
+   <style>
+      body {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 100svh;
+         margin: 0;
+      }
+      /* Stylizacja przycisku w okienku */
+      #clickCookie {
+         background-color: #007bff;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         cursor: pointer;
+         position: relative;
+      }
+
+      /* Stylizacja okienka */
+      #infoPopup {
+         display: none;
+         position: absolute;
+         top: 50%;
+         left: calc(50% - 15rem);
+         transform: translate(-50%, -50%);
+         padding: 20px;
+         background-color: #fff;
+         border: 1px solid #ccc;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+         z-index: 999;
+      }
+   </style>
+</head>
+
+<body>
+   <button id="clickCookie">Kliknij w ciastko</button>
+   <div id="infoPopup">
+      <h2>Otrzymałeś nagrodę!</h2>
+      <p>Zdobyłeś +1 ciastko na sekundę!</p>
+   </div>
+   <script>
+      const clickCookie = document.getElementById("clickCookie");
+      const infoPopup = document.getElementById("infoPopup");
+
+      // Pokazanie okienka po najechaniu kursorem myszy
+      clickCookie.addEventListener("mouseover", (e) =>
+      {
+         infoPopup.style.display = "block";
+         console.log(e);
+      });
+
+      // Ukrycie okienka po zjechaniu myszą z przycisku
+      clickCookie.addEventListener("mouseout", () =>
+      {
+         infoPopup.style.display = "none";
+      });
+   </script>
+</body>
+
+</html>

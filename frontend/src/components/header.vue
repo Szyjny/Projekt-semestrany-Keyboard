@@ -4,7 +4,7 @@
 			<div id="logo">Place for logo</div>
 			<h1 id="game_name">Project Keyboard</h1>
 			<h2 id="money_container">Kasa: {{ CLIENT.show_money() }}$ <strong>^</strong> cps: {{ CLIENT.show_money_per_sec() }}$</h2>
-			<div id="nav">place for navigation elements</div>
+			<div id="nav">place for the navigation elements</div>
 		</div>
 	</header>
 </template>
@@ -56,7 +56,7 @@ strong {
 
 #nav {
 	grid-area: nav;
-	width: 500px;
+	width: 450px;
 	background-color: #0f0;
 }
 
